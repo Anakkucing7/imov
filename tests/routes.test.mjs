@@ -30,9 +30,9 @@ test("Explore distinguishes planned products from AI vision", async () => {
 
 test("hero serves its concept artwork and honest copy before hydration", async () => {
   const html = await (await fetch(base)).text();
-  assert.match(html, /IMOV Orbital Core — a connected ecosystem/);
-  assert.match(html, /A central IMOV nucleus connects three orbital bands and three guide points/);
-  for (const category of ["Digital Products", "Developer Services", "Future AI"]) assert.ok(html.includes(category));
+  assert.match(html, /IMOV in motion/);
+  assert.match(html, /Intertwined flowing metal ribbons surrounding an open center/);
+  assert.doesNotMatch(html, /IMOV Orbital Core|core-satellite|orbital-label|core-connections/);
   assert.match(html, /Concept artwork/);
   assert.match(html, /An ecosystem in development/);
   assert.match(html, /href="#ecosystem-title"/);

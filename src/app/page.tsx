@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { ImovCore } from "@/components/imov-core";
+import { KineticSculpture } from "@/components/kinetic-sculpture";
 import "./hero.css";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
           <div className="hero-actions"><Link className="button" href="/explore">Explore IMOV <span aria-hidden="true">↗</span></Link><Link className="text-link" href="/vision">Our vision <span aria-hidden="true">↗</span></Link></div>
           <p className="development-note"><span aria-hidden="true" />An ecosystem in development. Start with the vision.</p>
         </div>
-        <ImovCore />
+        <KineticSculpture />
         <a className="hero-scroll" href="#ecosystem-title">Products, people, possibility <span aria-hidden="true">↓</span></a>
       </section>
       <section className="ecosystem-section" aria-labelledby="ecosystem-title">

@@ -84,3 +84,9 @@ Codex may add a dated Decision Log entry when a new product/design/architecture 
 
 - The founder finds the crystal-and-ring design game-like and structurally undisciplined. Preserve the working implementation in a local Git checkpoint. It is not visually approved.
 - [Art-direction audit](15-orbital-core-art-direction-audit.md) records current geometry, crossings, camera, materials, motion, loading behavior and the parameters that must be locked. No further visual implementation until a static design is approved and work is explicitly resumed. No redesign, deployment or push is authorized by this audit.
+
+## 2026-10-22 — Orbital concept cancelled; kinetic metal replacement authorized
+
+- The founder permanently cancelled Orbital Core and explicitly requested implementation of the [kinetic liquid metal hero](16-kinetic-liquid-metal.md). This replaces the prior static-design approval pause for that cancelled concept.
+- Preserve the old implementation in checkpoint `97c1376`, tag `imov-pre-kinetic-metal`, and retain the historical documentation. Remove confirmed unused orbital implementation from the active app; preserve routes, CTAs and useful visibility/pause behavior.
+- New direction: continuously deforming intertwined satin-metal ribbon surfaces around an open center, using existing Fiber/Three. No generated image/video assets or generic component substitution. Only a native geometry-derived static fallback is permitted for loading/no-JavaScript/unsupported WebGL.
